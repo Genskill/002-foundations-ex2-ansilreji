@@ -2,35 +2,37 @@
 #include "cs50"
 int main(void) 
   {
-  int a, b;
-  int n = get int("Enter the number ") ;
-for(a=1;a<=100;a++)
+  int a = get int("Enter first number") ;
+  int b = get int("Enter second number") ;
+  int n = get int("Enter third number ") ;
 
-{
-
-    for(b=1;b<=100;b++)
-
-        if(a<b && a*a + b*b == n*n)
+if(a<b && a*a + b*b == n*n)
 
         {
 
             printf("(%d, %d, %d)\n",a,b,n);
 
         }
+  else 
+    printf(" invalid ") ;
+  }
 
-        else
+
+
 
         
 
-      {
+        
 
-            printf("impossible \n");
 
-        }
 
-  }
 
-  }
+
+
+
+
+
+
 
 
 
