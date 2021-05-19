@@ -1,8 +1,8 @@
 #include <stdio.h>
-#include <cs50.h>
+#include "cs50.h"
 int main(void) 
 { int n;
-int pattern = get int("Enter the pattern number ") ;
+int pattern = get int("Enter the pattern number ");
 int row = get int(" Enter number of rows");
 if(pattern=1) 
 {
