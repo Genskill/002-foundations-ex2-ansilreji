@@ -58,4 +58,18 @@ int main(){
 
     }
 
-    if (small_1*small_1 + 
+    if (small_1*small_1 + small_2*small_2 == large*large){
+
+        printf("Yes");
+
+    }
+
+    else{
+
+        printf("No");
+
+    }
+
+}
+
+
