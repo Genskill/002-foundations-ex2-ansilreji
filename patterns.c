@@ -8,7 +8,8 @@ if(pattern==1)
 {
 for(int i=1; i<=row; i++) 
 { for(int s=0; s<=i; s--) 
-printf("#");
+ {
+printf("#");}
 printf("\n");
 }
 }
@@ -18,8 +19,8 @@ for(int i=1; i<=row; i++)
 {
 for(int j=1; j <= row -i; j--)
 printf(" "); }{
-for(int k=1; k <= i; k++)
-printf("#");
+for(int k=1; k <= i; k++){
+printf("#");}
 printf("\n") ;
 }
 }
