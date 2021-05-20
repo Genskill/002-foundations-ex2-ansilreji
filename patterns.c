@@ -6,13 +6,13 @@ int main(void)
 
 {
 
-  int p= get_int("Enter type of pattern (1 or 2) ");
+  int p= get_int("Enter type of pattern (1 or 2)");
 
   
 
   if(p==1){
 
-  int n= get_int("Number of Rows ");
+  int n= get_int("Number of Rows");
 
   
 
@@ -36,7 +36,7 @@ int main(void)
 
   else if(p==2){
 
-  int n= get_int("Number of Rows ");
+  int n= get_int("Number of Rows");
 
   
 
